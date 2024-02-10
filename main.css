@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FF7F11;
+    color: white;
+}
+
+header {
+    background-color: #262626;
+    height: 8vmin;
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px #FF7F11;
+    line-height: 8vmin;
+}
+
+section {
+    margin-top: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    gap: 4rem;
+}
+
+.container .choice{
+    height: 40vmin;
+    width: 35vmin;
+    background-color: #FF7F11;
+    box-shadow: 2px 2px 4px #262626;
+    border-radius: 4px;
+    padding: 10px;
+    transition: border 0.05s ease;
+}
+.container .choice:hover
+{
+    border:2px solid #262626;
+    cursor: pointer;
+    transform: scale(0.95);
+}
+ .container .choice img {
+    
+    height: 100%;
+    width: 100%;
+}
+.score-container
+{
+    display: flex;
+    justify-content: center;
+    gap:4rem;
+    margin: auto;
+}
+.score-container .score{
+    text-align: center;
+    font-size: 2rem;
+}
+.score p:nth-child(2)
+{
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px #262626;
+}
+#user-score , #computer-score
+{
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px #262626;
+}
+.msg-container
+{
+    display: flex;
+    justify-content: center;
+}
+#msg
+{
+    font-family: 'Poppins', sans-serif;
+    background-color: #262626;
+    display:inline;
+    font-size: 1.5rem;
+    padding:10px 20px;
+    border-radius:10px;
+}
+#msg:hover
+{
+    cursor: pointer;
+}
